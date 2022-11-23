@@ -8,7 +8,7 @@ baseURL = ('http://ec2-34-221-224-57.us-west-2.compute.amazonaws.com/')
 const btn2 = document.querySelector('#button2')
 
 const getCat = ( ) => {
-    axios.get(${baseURL}/api/cat)
+    axios.get(`${baseURL}/api/cat`)
     .then(res => {
         alert(res.data)
     })
