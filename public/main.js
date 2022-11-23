@@ -4,7 +4,7 @@ const clickHandler = () => alert('The cat name is: Rascal')
 
 btn.addEventListener('click', clickHandler)
 
-let baseURL = ('http://ec2-34-221-224-57.us-west-2.compute.amazonaws.com/')
+let baseURL = ('http://ec2-34-221-224-57.us-west-2.compute.amazonaws.com')
 
 // let baseURL = 'http://localhost:4000'
 const btn2 = document.querySelector('#button2')
